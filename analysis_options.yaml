@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+    asset_does_not_exist: ignore
+
+linter:
+  rules:
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
+    use_key_in_widget_constructors: false
+    curly_braces_in_flow_control_structures: false
+    unnecessary_underscores: false
